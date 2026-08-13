@@ -5,10 +5,10 @@
 
 def numberType(number):
     if number < 0:
-        print(f"{n} is negative")
+        print(f"{number} is negative")
 
     elif number > 0:
-        print(f"{n} is positive")
+        print(f"{number} is positive")
 
     else:
         print("Number is Zero")
