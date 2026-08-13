@@ -11,12 +11,12 @@
 # • 
 # If salary > 70,000 → 25%
 def calcTax(salary):
-    if salary <30000:
-        return 0.05*salary
-    elif 30000 <= salary >= 70000:
-        return 0.15*salary
+    if salary < 30000:
+        return 0.05 * salary
+    elif 30000 <= salary <= 70000:
+        return 0.15 * salary
     else:
-        return 0.25*salary
+        return 0.25 * salary
 
 salary = float(input("Enter salary (₹) : "))
 finalTaxRate = calcTax(salary)
